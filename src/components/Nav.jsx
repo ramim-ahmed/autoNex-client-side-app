@@ -9,8 +9,8 @@ export default function Nav() {
       level: "Home",
     },
     {
-      path: "/products",
-      level: "Products",
+      path: "/shop",
+      level: "Shop",
     },
     {
       path: "/blog",
@@ -37,10 +37,10 @@ export default function Nav() {
     );
   });
   return (
-    <nav>
+    <nav className="">
       <div className="flex justify-between py-4 items-center max-w-6xl mx-auto px-3">
         <div className="hidden lg:block">
-          <h1 className="font-bold">AutoNex</h1>
+          <h1 className="font-bold text-3xl">AutoNex</h1>
         </div>
         <div className="block lg:hidden">
           <HiMenuAlt1 className="w-7 h-7" />
